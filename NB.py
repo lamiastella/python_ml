@@ -18,5 +18,5 @@ def NBAccuracy(features_train, labels_train, features_test, labels_test):
     ### this is slightly different than the example, 
     ### where we just print the accuracy
     ### you might need to import an sklearn module
-    accuracy = accuracy_score(labels_train, pred)
+    accuracy = accuracy_score(labels_test, pred)
     return accuracy
