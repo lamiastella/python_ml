@@ -22,7 +22,7 @@ clf = SVC(kernel="linear")
 #### using the training features/labels, and to
 #### make a set of predictions on the test data
 clf.fit(features_train, labels_train)
-clf.predict(features_test)
+pred=clf.predict(features_test)
 
 #### store your predictions in a list named pred
 acc = accuracy_score(pred, labels_test)
